@@ -1,0 +1,126 @@
+		html {
+			margin: 0;
+			padding: 0;
+			height: 100%; 
+		}
+		
+		body {
+			margin: 0;
+			padding: 0;
+			height: 100%; 
+			font-family:Sans-serif;
+			line-height: 1.5em;
+		}
+		
+		#wrap { 
+		width: 800px; 
+		margin: 0 auto;
+		position: relative;
+		min-height:100%;
+		}
+		
+		#header {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 75px; 
+		}
+		
+		#footer {
+			position: absolute;
+			left: 0;
+			bottom: 0;
+			width: 100%;
+			height: 50px; 
+			background: #DCDCDC;
+		}
+		
+		#main {
+			position: absolute;
+			top: 75px; /* Set this to the height of the header */
+			bottom: 50px;/* Set this to the height of the footer */
+			left: 175px; 
+			width: 375px;
+			overflow: auto;
+			background: #FFF;
+		}
+		
+		#right {
+			position: absolute;
+			top: 75px; /* Set this to the height of the header */
+			bottom: 50px;/* Set this to the height of the footer */
+			left: 550px; 
+			width: 250px;
+			background: #A9A9A9; 
+			overflow: auto;		
+			background: -webkit-linear-gradient(#A9A9A9, #DCDCDC); /* For Safari 5.1 to 6.0 */
+  			background: -o-linear-gradient(#A9A9A9, #DCDCDC); /* For Opera 11.1 to 12.0 */
+ 			background: -moz-linear-gradient(#A9A9A9, #DCDCDC); /* For Firefox 3.6 to 15 */
+  			background: linear-gradient(#A9A9A9, #DCDCDC); /* Standard syntax */
+		}	
+		
+		#left {
+			position: absolute;
+			top: 75px; /* Set this to the height of the header */
+			bottom: 50px;/* Set this to the height of the footer */
+			left: 0;
+			width: 175px;
+			border-top-right-radius: 10px;	
+			border-bottom-right-radius: 10px;
+			background: #193660;
+		}
+		
+		.innertube {
+			margin: 15px; /* Provides padding for the content */
+		}
+		.sminnertube {
+			margin: 7px; /* Provides padding for the content */
+		}
+		nav ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+		}
+		nav ul a {
+			color: #FFFFFF;
+			text-decoration: none;
+		}
+		
+		nav ul a:hover {
+			text-decoration: underline;
+		}
+		p {
+			color: #000000;
+		}
+		p a:link    {
+			color:#000000;
+			}
+		p a:link #main {
+			color:#000000;
+			text-decoration:underline;
+			}	
+		p a:hover   {
+			color:#000000;
+			text-decoration:underline;
+			}
+		/*IE6 fix*/
+		* html body{
+			padding: 150px 200px 50px 200px; /* Set the first value to the height of the header, the second value to the width of the right column, third value to the height of the footer, and last value to the width of the left column */
+		}
+		* html #main{ 
+			height: 100%; 
+			width: 100%; 
+		}
+		
+		table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+	}
+	th, td {
+    padding: 5px;
+	}
+	th {
+    text-align: left;
+	}
+		
